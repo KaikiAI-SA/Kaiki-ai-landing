@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAIKI AI - AI Solutions for Africa</title>
+    <style>
+        * {margin:0; padding:0; box-sizing:border-box;}
+        :root {--primary-blue:#0066FF; --accent-purple:#7B5FFF; --light-gray:#F5F7FA; --dark-gray:#1F2937; --text-gray:#4B5563;}
+        body {font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif; line-height:1.6; color:var(--text-gray);}
+        header {background:linear-gradient(135deg,var(--primary-blue) 0%,var(--accent-purple) 100%); color:white; padding:20px 0; position:sticky; top:0; z-index:100; box-shadow:0 2px 10px rgba(0,0,0,0.1);}
+        .header-nav {max-width:1200px; margin:0 auto; padding:0 20px; display:flex; justify-content:space-between; align-items:center;}
+        .logo {font-size:28px; font-weight:bold; display:flex; align-items:center; gap:10px;}
+        .nav-links {display:flex; gap:30px; list-style:none;}
+        .nav-links a {color:white; text-decoration:none; font-weight:500; transition:opacity 0.3s;}
+        .nav-links a:hover {opacity:0.8;}
+        .hero {background:linear-gradient(135deg,var(--primary-blue) 0%,var(--accent-purple) 100%); color:white; padding:100px 20px; text-align:center;}
+        .hero h1 {font-size:48px; margin-bottom:20px;}
+        .hero p {font-size:20px; margin-bottom:30px; opacity:0.95;}
+        .cta-button {display:inline-block; background:white; color:var(--primary-blue); padding:15px 40px; border-radius:50px; text-decoration:none; font-weight:bold; transition:transform 0.3s,box-shadow 0.3s; box-shadow:0 4px 15px rgba(0,0,0,0.2); margin:10px;}
+        .cta-button:hover {transform:translateY(-2px); box-shadow:0 6px 20px rgba(0,0,0,0.3);}
+        .container {max-width:1200px; margin:0 auto; padding:0 20px;}
+        .features {padding:80px 0; display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:40px;}
+        .feature-card {background:white; padding:40px; border-radius:10px; text-align:center; box-shadow:0 2px 10px rgba(0,0,0,0.05); transition:transform 0.3s;}
+        .feature-card:hover {transform:translateY(-5px);}
+        .feature-icon {font-size:48px; margin-bottom:20px;}
+        .feature-card h3 {color:var(--dark-gray); margin-bottom:15px;}
+        .section-title {text-align:center; font-size:36px; color:var(--dark-gray); margin-bottom:50px; font-weight:700;}
+        .services-section {background:var(--light-gray); padding:80px 0;}
+        .service-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:30px;}
+        .service-item {background:white; padding:30px; border-radius:8px; border-left:4px solid var(--primary-blue);}
+        .cta-section {background:linear-gradient(135deg,var(--primary-blue) 0%,var(--accent-purple) 100%); color:white; padding:60px 0; text-align:center;}
+        footer {background:var(--dark-gray); color:white; padding:40px 0; text-align:center;}
+        @media(max-width:768px) {.nav-links{flex-direction:column; gap:15px;} .hero h1{font-size:32px;}}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-nav">
+            <div class="logo">🤖 KAIKI AI</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <h1>AI Solutions for Africa</h1>
+        <p>Empowering businesses across Africa with cutting-edge artificial intelligence</p>
+        <a href="#contact" class="cta-button">Get Started Today</a>
+    </section>
+    <section class="container" id="features">
+        <h2 class="section-title">Why Choose KAIKI AI?</h2>
+        <div class="features">
+            <div class="feature-card"><div class="feature-icon">🚀</div><h3>Fast Innovation</h3><p>Rapidly deploy AI solutions tailored to your business needs</p></div>
+            <div class="feature-card"><div class="feature-icon">🌍</div><h3>Africa-Focused</h3><p>Built for African markets and challenges</p></div>
+            <div class="feature-card"><div class="feature-icon">💼</div><h3>Enterprise Ready</h3><p>Scalable for businesses of all sizes</p></div>
+            <div class="feature-card"><div class="feature-icon">🔒</div><h3>Secure & Reliable</h3><p>Industry-leading security standards</p></div>
+        </div>
+    </section>
+    <section class="services-section" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item"><h4>🤖 Custom AI Development</h4><p>Tailored AI solutions for your business</p></div>
+                <div class="service-item"><h4>📊 Data Analytics</h4><p>Transform data into actionable insights</p></div>
+                <div class="service-item"><h4>🔍 Machine Learning</h4><p>ML models that improve continuously</p></div>
+                <div class="service-item"><h4>💬 NLP Solutions</h4><p>Natural language processing technology</p></div>
+                <div class="service-item"><h4>🎯 Computer Vision</h4><p>Advanced image recognition</p></div>
+                <div class="service-item"><h4>📱 AI Consulting</h4><p>Strategic guidance for AI integration</p></div>
+            </div>
+        </div>
+    </section>
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <h2>Ready to Transform Your Business?</h2>
+            <p>Join 1,087+ followers leveraging AI for growth</p>
+            <a href="https://www.facebook.com/61580299863740" class="cta-button">Follow us on Facebook</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 KAIKI AI - An AI Company for Africa. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
